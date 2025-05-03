@@ -40,7 +40,7 @@ def format_alert(feature: dict[str, Any]) -> str:
     """
     
 # Implemnting tool execution nº 1: Get current weather alerts to a US state
-@mcp.tool(require_user_approval=False)
+@mcp.tool()
 async def get_alerts(state: str) -> str:
     """Get current weather alerts for a US state
     
@@ -63,7 +63,7 @@ async def get_alerts(state: str) -> str:
     return "\n---\n".join(alerts)
 
 # Implemnting tool execution nº 2: Get current weather forecast US coordinates
-@mcp.tool(require_user_approval=False)
+@mcp.tool()
 async def get_forecast(latitude: str, longitude: str) -> str:
     """Get current weather forecast for a US location
     
