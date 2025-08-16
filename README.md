@@ -2,6 +2,11 @@
 
 A Model Context Protocol (MCP) server that provides real-time weather alerts and forecasts for locations across the United States. Built with FastMCP and powered by the National Weather Service (NWS) API.
 
+## Author
+
+Matheus Remigio  
+Contact: matheus.remido@gmail.com
+
 ## 🌟 Features
 
 - **Weather Alerts**: Get current weather alerts for any US state
@@ -23,7 +28,7 @@ A Model Context Protocol (MCP) server that provides real-time weather alerts and
 
 1. **Clone the repository**
    ```bash
-   git clone <https://github.com/msremigio/mcp-server-weather.git>
+   git clone https://github.com/msremigio/mcp-server-weather.git
    cd mcp_weather
    ```
 
@@ -195,7 +200,7 @@ The server includes comprehensive error handling:
 
 ## 📄 License
 
-[-]
+MIT License.
 
 ## 🙏 Acknowledgments
 
