@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+      "mcp_weather": {
+        "command": "uv",
+        "args": [
+          "--directory",
+          "/path/to/your/mcp_weather/project",
+          "run",
+          "weather.py"
+        ]
+      }
+    }
+  }
+  
